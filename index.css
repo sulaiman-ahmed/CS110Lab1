@@ -1,0 +1,98 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  background-color: #e6ecf0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  height: 46px;
+}
+
+.navbar {
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-left {
+  width: 50%;
+}
+
+.logo{
+  width: 24px;
+} 
+
+button {
+  border-radius: 30px;  
+  padding: 2px 15px;
+  color: #4AB3F4;
+  border: 1px solid #4AB3F4;
+  max-width: 100px;
+  background-color: white;
+}
+
+.tweet-button {
+  background-color: #4AB3F4;
+  color: white;
+  font-weight: bold;
+  right: 0;
+}
+
+.wrapper {
+  max-width: 1190px;
+  margin: 56px auto;
+  padding: 10px;
+}
+
+.left-content {
+  min-width: 290px;
+  margin: 5px 5px;
+}
+
+.banner {
+  width: 100%;
+  background: black;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img {
+  width: 200px; 
+ 
+}
+
+.profile {
+  z-index: 5;
+  margin-top: -30px;
+}
+
+.profile-pic {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.center-content {
+  min-width: 580px;
+  background-color: antiquewhite;
+  margin: 5px 5px;
+}
+
+.right-content {
+  min-width: 290px;
+  background-color: beige;
+  margin: 5px 5px;
+}
