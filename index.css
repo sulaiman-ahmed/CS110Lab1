@@ -74,6 +74,7 @@ button {
 .profile {
   z-index: 5;
   margin-top: -30px;
+  max-width: 80px;
 }
 
 .profile-pic {
@@ -85,9 +86,38 @@ button {
   margin-right: 20px;
 }
 
+.profile-info {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 2px 1px;
+}
+
+.profile-name {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.statistics {
+  margin-top: 5px;
+}
+
+.statistics-pair {
+  margin-left: 20px;
+}
+
+.statistics-title {
+  font-weight: bold;
+  color: gray;
+}
+
+.statistics-number {
+  font-weight: bold;
+  color:#4AB3F4
+}
+
 .center-content {
   min-width: 580px;
-  background-color: antiquewhite;
+  background-color: white;
   margin: 5px 5px;
 }
 
