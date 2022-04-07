@@ -123,6 +123,52 @@ button {
 
 .right-content {
   min-width: 290px;
-  background-color: beige;
+  background-color: white;
   margin: 5px 5px;
+}
+
+.right-header {
+  font-weight: 780;
+  font-size: 25px;
+  margin: 15px;
+}
+
+.profile-pic-smaller {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.name {
+  font-weight: 900;
+  position: relative;
+  bottom: 20px;
+}
+
+.username {
+  position: relative;
+  bottom: 20px;
+  color: grey;
+}
+
+.follow-button {
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  bottom: 35px;
+  margin-left: 120px;
+  width: 100px;
+}
+
+.separation-line {
+  color:gainsboro;
+  position: relative;
+  bottom: 30px;
+  border-top: 2.1px solid;
+  width: 87%;
+  margin-left: 20px;
 }
