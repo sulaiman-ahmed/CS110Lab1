@@ -26,6 +26,15 @@ header {
   width: 50%;
 }
 
+a.nav-link {
+  border-bottom: 2px solid white;
+}
+
+a.nav-link:hover {
+  color: #4AB3F4;
+  border-bottom: 2px solid #4AB3F4 ;
+}
+
 .logo{
   width: 24px;
 } 
@@ -123,6 +132,18 @@ button {
 
 .right-content {
   min-width: 290px;
-  background-color: beige;
+  background-color: white;
   margin: 5px 5px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .right-content {
+    display: none;
+  }
+}
+
+.right-header {
+  margin: 10px;
+  font-weight: bold;
+}
+
